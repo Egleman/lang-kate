@@ -1,0 +1,181 @@
+.rates-text {
+    font-family: 'Ruda', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #000000;
+    margin-bottom: 52px;
+    text-align: center;
+}
+.rates-cards {
+    display: flex;
+    justify-content: space-between;
+}
+.privat {
+    width: 588px;
+    height: 652px;
+    background: #EB6FFF;
+    border-radius: 10px;
+    padding-top: 35px;
+}
+.privat-logo {
+    background: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    border-radius: 15px;
+    padding: 5px 38px;
+    font-family: 'Ruda', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #EB6FFF;
+    text-decoration: none;
+    max-width: 193px;
+}
+.individ-mentor {
+    font-family: 'Ruda', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-top: 20px;
+}
+.horizont-stick-white {
+    border: 1px solid #FFFFFF;
+    margin-bottom: 6px;
+}
+
+.d-flex {
+    display: flex;
+    margin-top: 10px;
+}
+.d-flex-text {
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    color: #FFFFFF;
+    margin-left: 8px;
+    word-wrap: break-word;
+    max-width: 500px;
+}
+.d-flex-img {
+    width: 15px;
+    height: 15px;
+}
+.privat-text {
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    margin-top: 25px;
+}
+.privat-button {
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 20px 23px;
+    border: 2px solid #FFFFFF;
+    border-radius: 10px;
+    background-color: transparent;
+    cursor: pointer;
+    margin-top: 25px;
+}
+
+.privat-button:hover {
+    background: #FFF;
+    color: #000;
+}
+.m-left-36 {
+    margin-left: 36px;
+}
+.basic {
+    width: 587.51px;
+    height: 588px;
+    background: #CAE9EB;
+    border-radius: 10px;
+    margin-top: 32px;
+    padding-top: 28px;
+}
+.basic-logo {
+    font-family: 'Ruda', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #000000;
+}
+.horizont-stick-black {
+    border: 1px solid #000000;
+    margin-bottom: 6px;
+}
+.d-flex-text-black {
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    color: #000;
+    margin-left: 8px;
+    word-wrap: break-word;
+    max-width: 510px;
+}
+.basic-text {
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000;
+    margin-top: 25px;
+}
+.basic-button {
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000;
+    text-decoration: none;
+    padding: 20px 23px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    background-color: transparent;
+    cursor: pointer;
+    margin-top: 25px;
+}
+
+.basic-button:hover {
+    background: #000;
+    color: #fff;
+}
+.m-left-29 {
+    margin-left: 29px;
+}
+.individ-mentor-black {
+    font-family: 'Ruda', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #000;
+    margin-top: 20px;
+}

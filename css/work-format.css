@@ -1,0 +1,16 @@
+.work-format {
+    height: 150px;
+    background: #EB6FFF;
+    display: flex;
+    align-items:center;
+}
+.work-format-text {
+    font-family: 'Ruda', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}

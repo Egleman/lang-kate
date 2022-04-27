@@ -1,3 +1,21 @@
+@import './header-menu.css';
+@import './banner.css';
+@import './figures.css';
+@import './mission.css';
+@import './about.css';
+@import './about-diplom.css';
+@import './work-format.css';
+@import './mentoring.css';
+@import './cases.css';
+@import './who-do-i-work-with.css';
+@import './rates.css';
+@import './plan.css';
+@import './services.css';
+@import './what-is-barre.css';
+@import './reviews.css';
+@import './footer.css';
+@import './hamburger.css';
+
 * {
     padding: 0;
     margin: 0;
@@ -9,3 +27,469 @@
     flex-direction: column;
     min-height: 100vh;
 }
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+@media (max-width: 1900px) {
+    .triangle-one {
+        width: 39.73%;
+    }
+    .triangle-two {
+        width: 39.73%;
+    }
+}
+@media (max-width: 1800px) {
+    .triangle-one {
+        width: 39.13%;
+    }
+    .triangle-two {
+        width: 39.13%;
+    }
+}
+@media (max-width: 1700px) {
+    .triangle-one {
+        width: 38.73%;
+    }
+    .triangle-two {
+        width: 38.73%;
+    }
+    .two {
+        left: 538px;
+    }
+}
+@media (max-width: 1500px) {
+    .triangle-one {
+        width: 37.13%;
+    }
+    .triangle-two {
+        width: 37.13%;
+    }
+    .two {
+        left: 450px;
+    }
+    .three {
+        left: 319px;
+    }
+    .four {
+        left: 587px;
+    }
+    .five {
+        left: 740px;
+    }
+}
+@media (max-width: 1300px) {
+    .triangle-one {
+        width: 35.13%;
+    }
+    .triangle-two {
+        width: 35.13%;
+    }
+    .three {
+        left: 219px;
+    }
+    .four {
+        left: 487px;
+    }
+    .five {
+        left: 640px;
+    }
+}
+
+@media (max-width: 1216px) {
+    .about-button {
+        margin-top: 110px;
+    }
+    .about-content-mobile {
+        display: block;
+    }
+    .arrow-slider-mobile {
+        display: flex;
+    }
+    .about-content {
+        display: none;
+    }
+    .mod {
+        max-width: 960px;
+        background: transparent;
+    }
+    .cases-text {
+        margin-bottom: 60px;
+    }
+    .mentoring-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .mentoring-image {
+        margin-top: 50px;
+    }
+    .cases-arrow {
+        max-width: 600px;
+    }
+    .cases-slider {
+        max-width: 383px;
+    }
+    .rates-cards {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .footer-content {
+        justify-content: space-around;
+        width: 960px;
+    }
+    .contacts {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .politics {
+        margin-right: 0px;
+    }
+    .atmosphere {
+        position: static;
+        margin: 0 auto;
+    }
+    .services-info {
+        position: static;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .any-training-text {
+        text-align: center;
+    }
+    .kate-img {
+        width: 417px;
+        height: 585px;
+    }
+    .plan-consult {
+        margin-left: 0px;
+    }
+    .services-content {
+        flex-wrap: wrap;
+    }
+    .arrow-button {
+        max-width: 1035px;
+    }
+    .who-button {
+        max-width: 1035px;
+    }
+    .triangle-one {
+        display: none;
+    }
+    .triangle-two {
+        display: none;
+    }
+    .mission-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .mission-text-left {
+        left: -75px;
+    }
+    .mission-column-2 {
+        overflow: hidden;
+        position: relative;
+        right: 30px;
+    }
+    .two {
+        left: 315px;
+    }
+    .three {
+        left: 169px;
+    }
+    .four {
+        left: 437px;
+    }
+    .five {
+        display: none;
+    }
+    .seven {
+        display: none;
+    }
+    .eight {
+        top: 5560px;
+        right: 217px;
+    }
+    .nine {
+        top: 5715px;
+        left: 200px
+    }
+    .ten {
+       display: none;
+    }
+    .eleven {
+        display: none;
+    }
+    .twelve {
+        display: none;
+    }
+    .banner-text {
+        font-size: 50px;
+        width: 1000px;
+    }
+    .container {
+        max-width: 960px;
+    }
+}
+@media (max-width: 1014px) {
+    .header-menu-content>ul>li {
+        font-size: 14px;
+    }
+    .banner-text {
+        font-size: 37px;
+        width: 768px;
+    }
+    .banner-tagline {
+        font-size: 14px;
+    }
+    .footer-content {
+        width: 768px;
+    }
+    .container {
+        max-width: 768px;
+    }
+    .about-content-mobile {
+        max-width: 768px;
+    }
+    .diploms-container {
+        max-width: 622px;
+    }
+    .arrow-button {
+        max-width: 740px;
+    }
+    .work-format-text {
+        font-size: 20px;
+    }
+    .who-slide-text {
+        font-size: 15px;
+    }
+    .who-do-slide-img {
+        width: 768px;
+        height: 385px;
+    }
+    .who-button {
+        max-width: 845px;
+        bottom: 225px;
+    }
+    .tagline-team {
+        font-size: 17px;
+    }
+    .kate-img {
+        display: none;
+    }
+    .plan-content {
+        margin-bottom: 50px;
+    }
+    .video {
+        max-width: 768px;
+    }
+    .video-size {
+        height: 432px;
+    }
+     .reviews-slider {
+         max-width: 281px;
+     }
+     .reviews-arrow {
+         max-width: 400px;
+     }
+}
+@media (max-width: 848px) {
+    .pc-menu {
+        display: none;
+    }
+    .hamburger-menu {
+        display: block;
+    }
+    .container {
+        max-width: 500px;
+    }
+    .banner-text {
+        font-size: 25px;
+        width: 440px;
+    }
+    .banner-tagline {
+        font-size: 12px;
+    }
+    .mission-column-1 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .mission-text-left {
+        top: -76px;
+        left: -10px;
+    }
+    .mission-column-2 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        position: static;
+        margin-top: 0px;
+    }
+    .mission-text-right {
+        top: 72px;
+    }
+    .mod {
+        max-width: 500px;
+    }
+    .about-content-mobile {
+        max-width: 210px;
+    }
+    .arrow-slider-mobile {
+        max-width: 320px;
+    }
+    .diploms-container {
+        max-width: 281px;
+    }
+    .arrow-button {
+        max-width: 400px;
+    }
+    .work-format-text {
+        font-size: 14px;
+    }
+    .cases-arrow {
+        max-width: 500px;
+    }
+    .who-slide-text {
+        font-size: 10px;
+    }
+    .who-do-slide-img {
+        width: 500px;
+        height: 250px;
+    }
+    .who-button {
+        max-width: 600px;
+        bottom: 160px;
+    }
+    .eight {
+        display: none;
+    }
+    .nine {
+        display: none;
+    }
+    .tagline-team {
+        font-size: 11px;
+    }
+    .privat {
+        height: 725px;
+    }
+    .basic {
+        height: 690px;
+    }
+    .atmosphere {
+        width: 500px;
+    }
+    .arrow-text-barre {
+        font-size: 18px;
+        width: auto;
+    }
+    .arrow-text-price {
+        font-size: 20px;
+        margin-left: 0px;
+    }
+    .image-arrow {
+        margin-left: 25px;
+    }
+    .video {
+        max-width: 500px;
+    }
+    .video-size {
+        height: 289px;
+    }
+    .footer-content {
+        width: 500px;
+        flex-direction: column;
+    }
+    .contacts {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .politics {
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .footer {
+        height: 350px;
+    }
+}
+@media (max-width: 620px) {
+    .mentoring-image {
+        display: none;
+    }
+    .container {
+        max-width: 350px;
+    }
+    .mission-column-1 {
+        width: 350px;
+    }
+    .mission-column-2 {
+        width: 350px;
+    }
+    .diploms-container {
+        max-width: 281px;
+    }
+    .work-format-text {
+        font-size: 10px;
+    }
+    .fitness-body {
+        display: none;
+    }
+    .mod-cont {
+        max-width: 400px;
+    }
+    .who-button {
+        max-width: 410px;
+    }
+    .d-flex-text {
+        font-size: 12px;
+    }
+    .privat {
+        height: 785px;
+    }
+    .basic {
+        height: 730px;
+    }
+    .d-flex-text-black {
+        font-size: 12px;
+    }
+    .image-arrow {
+        display: none;
+    }
+    .atmosphere {
+        width: 350px;
+    }
+    .video {
+        max-width: 350px;
+    }
+    .video-size {
+        height: 200px;
+    }
+    .footer-content {
+        width: 350px;
+    }
+    .banner-text {
+        width: 350px;
+        font-size: 19px;
+        margin-top: 240px;
+    }
+    .four {
+        display: none;
+    }
+    .two {
+        display: none;
+    }
+    .three {
+        display: none;
+    }
+    
+}
+
+

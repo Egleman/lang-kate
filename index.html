@@ -5,12 +5,547 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Катерина Языковая</title>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
     <script src="./script/script.js" defer></script>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ruda:wght@400;700;900&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="main-container">
-        
+        <header class="header-menu">
+            <div class="hamburger-menu">
+                <input id="menu__toggle" type="checkbox" />
+                <label class="menu__btn" for="menu__toggle">
+                  <span></span>
+                </label>
+            
+                <ul class="menu__box">
+                  <li><a class="menu__item" href="#">Миссия</a></li>
+                        <li><a class="menu__item" href="#">о себе</a></li>
+                        <li><a class="menu__item" href="#">кейсы</a></li>
+                        <li><a class="menu__item" href="#">тарифы</a></li>
+                        <li><a class="menu__item" href="#">услуги</a></li>
+                        <li><a class="menu__item" href="#">отзывы</a></li>
+                </ul>
+            </div>
+            <div class="container pc-menu">
+                <div class="header-menu-content">
+                    <ul>
+                        <li>Миссия</li>
+                        <li>о себе</li>
+                        <li>кейсы</li>
+                        <li>тарифы</li>
+                        <li>услуги</li>
+                        <li>отзывы</li>
+                    </ul>
+                    <div class="social-lang">
+                        <div class="social-header">
+                            <a href="#"><img src="./images/whatsapp.png" alt="whatsapp"></a>
+                            <a href="#"><img src="./images/instagram.png" alt="intagram"></a>
+                            <a href="#"><img src="./images/telegram.png" alt="telegram"></a>
+                        </div>
+                        <div class="lang">
+                            <a href=""><img src="./images/ru.png" alt="ru"></a>
+                            <a href=""><img src="./images/en.png" alt="en"></a>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </header>
+        <header class="header-banner">
+            <div class="container">
+                <div class="banner">
+                    <h1 class="banner-text">Единственная красота, которую я знаю, — это здоровье.</h1>
+                    <p class="banner-tagline">Рыбатекст используется дизайнерами, проектировщиками и фронтендерами,<br> когда нужно быстро заполнить макеты или прототипы содержимым.</p>
+                    <button class="banner-button">Получить консультацию</button>
+                </div>
+            </div>
+        </header>
+        <main>
+            <section class="misson">
+                <div class="container">
+                    <div class="mission-content">
+                        <div class="mission-column-1">
+                            <img src="./images/Rectangle 7.jpg" alt="img">
+                            <div class="mission-text-left">
+                                <p class="text-left-1">Катерина Языкова</p>
+                                <p class="text-left-2">‌СПОРТИВНЫЙ ТРЕНЕР WELLNESS COACH</p>
+                            </div>
+                        </div>
+                        <div class="mission-column-2">
+                            <div class="mission-text-right">
+                                <p class="text-right-1">Моя миссия</p>
+                                <p class="text-right-2">‌Помощь людям в избавлении от внутренних проблем и выстраивании фундамента для здорового образа жизни.</p>
+                            </div>
+                            <img src="./images/Rectangle 8.jpg" alt="img">
+                        </div>
+                    </div>
+                    <h2 class="about-text">О себе</h2>
+                </div>
+            </section>
+            <section class="about">
+                <div class="arrow-slider-mobile">
+                    <img src="./images/left.png" alt="arrow-left" class="mobile-slider-about-left">
+                    <img src="./images/right.png" alt="arrow-right" class="mobile-slider-about-right">
+                </div>
+                <div class="mod">
+                    <div class="about-content-mobile">
+                        <div class="swiper about-slider-mobile">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide mobile-slide">
+                                    <div class="card card-mobile">
+                                        <p class="card-number">01</p>
+                                        <p class="card-text card-text-mobile">Участница Европейской программы по обмену Erasmus Mundus, 2019</p>
+                                        <img src="./images/Ellipse.png" alt="img">
+                                        
+                                    </div>
+                                </div>
+                                <div class="swiper-slide mobile-slide">
+                                    <div class="card card-mobile">
+                                        <p class="card-number">02</p>
+                                        <p class="card-text card-text-mobile">Победительница кейс-чемпионатов Changellenge, 2020</p>
+                                        <img src="./images/Ellipse 24 (1).png" alt="img">
+                                        
+                                    </div>
+                                </div>
+                                <div class="swiper-slide mobile-slide">
+                                    <div class="card card-mobile">
+                                        <p class="card-number">03</p>
+                                        <p class="card-text card-text-mobile">Выпускница "самого жесткого" фитнес-колледжа России им. Бена Вейдера, 2020</p>
+                                        <img src="./images/Ellipse 24 (2).png" alt="img">
+                                        
+                                    </div>
+                                </div>
+                                <div class="swiper-slide mobile-slide">
+                                    <div class="card card-mobile">
+                                        <p class="card-number">04</p>
+                                        <p class="card-text card-text-mobile">Выпускница Биотехнологического факультета, 2020</p>
+                                        <img src="./images/Ellipse 24 (3).png" alt="img">
+                                        
+                                    </div>
+                                </div>
+                                <div class="swiper-slide mobile-slide">
+                                    <div class="card card-mobile">
+                                        <p class="card-number">05</p>
+                                        <p class="card-text card-text-mobile">Выпускница онлайн-школы Американского фитнеса Барре, 2022</p>
+                                        <img src="./images/Ellipse 24 (4).png" alt="img">
+                                        
+                                    </div>
+                                </div>
+                                <div class="swiper-slide mobile-slide">
+                                    <div class="card card-mobile">
+                                        <p class="card-number">06</p>
+                                        <p class="card-text card-text-mobile">Выпускница онлайн-школы Американского фитнеса Барре, 2022</p>
+                                        <img src="./images/Ellipse 24 (5).png" alt="img">
+                                       
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="about-content">
+                        <div class="card">
+                            <p class="card-number">01</p>
+                            <p class="card-text">Участница Европейской программы по обмену Erasmus Mundus, 2019</p>
+                            <img src="./images/Ellipse.png" alt="img">
+                            <div class="stick"></div>
+                        </div>
+                        <div class="card">
+                            <p class="card-number">02</p>
+                            <p class="card-text">Победительница кейс-чемпионатов Changellenge, 2020</p>
+                            <img src="./images/Ellipse 24 (1).png" alt="img">
+                            <div class="stick"></div>
+                        </div>
+                        <div class="card">
+                            <p class="card-number">03</p>
+                            <p class="card-text">Выпускница "самого жесткого" фитнес-колледжа России им. Бена Вейдера, 2020</p>
+                            <img src="./images/Ellipse 24 (2).png" alt="img">
+                            <div class="stick"></div>
+                        </div>
+                        <div class="card">
+                            <p class="card-number">04</p>
+                            <p class="card-text">Выпускница Биотехнологического факультета, 2020</p>
+                            <img src="./images/Ellipse 24 (3).png" alt="img">
+                            <div class="stick"></div>
+                        </div>
+                        <div class="card">
+                            <p class="card-number">05</p>
+                            <p class="card-text">Выпускница онлайн-школы Американского фитнеса Барре, 2022</p>
+                            <img src="./images/Ellipse 24 (4).png" alt="img">
+                            <div class="stick"></div>
+                        </div>
+                        <div class="card">
+                            <p class="card-number">06</p>
+                            <p class="card-text">Выпускница онлайн-школы Американского фитнеса Барре, 2022</p>
+                            <img src="./images/Ellipse 24 (5).png" alt="img">
+                            <div class="stick"></div>
+                        </div>
+                    </div>
+                    <button class="about-button">Перейти к тарифам</button>
+                </div>
+            </section>
+            <section class="about-diploms">
+                <div class="container diploms-container">
+                    <div class="swiper diploms-swiper">
+                        <!-- Additional required wrapper -->
+                        <div class="swiper-wrapper">
+                          <!-- Slides -->
+                          <div class="swiper-slide diploms-slide"><img src="./images/Rectangle 39.jpg" alt="img" class="img-slide"></div>
+                          <div class="swiper-slide diploms-slide"><img src="./images/Rectangle 40.png" alt="img" class="img-slide"></div>
+                          <div class="swiper-slide diploms-slide"><img src="./images/Rectangle 41.png" alt="img" class="img-slide"></div>
+                          <div class="swiper-slide diploms-slide"><img src="./images/Rectangle 42.png" alt="img" class="img-slide"></div>
+                          <div class="swiper-slide diploms-slide"><img src="./images/Rectangle 39.jpg" alt="img" class="img-slide"></div>
+                          <div class="swiper-slide diploms-slide"><img src="./images/Rectangle 40.png" alt="img" class="img-slide"></div>
+                          <div class="swiper-slide diploms-slide"><img src="./images/Rectangle 41.png" alt="img" class="img-slide"></div>
+                          <div class="swiper-slide diploms-slide"><img src="./images/Rectangle 42.png" alt="img" class="img-slide"></div>
+                        </div>      
+                    </div>
+                </div>
+                <div class="arrow-button">
+                    <div class="diploms-arrow-left arrow">
+                        <img src="./images/left.png" alt="arrow-left">
+                    </div>
+                    <div class="diploms-arrow-right arrow">
+                        <img src="./images/right.png" alt="arrow-right">
+                    </div>
+                </div>
+                <div class="diploms-slider-pagintation">
+                    <div class="swiper-pagination diploms-pagin"></div>  
+                </div>
+            </section>
+            <section class="work-format">
+                <div class="container">
+                    <h2 class="work-format-text">Мой основной формат работы — наставничество.  Это групповая или индивидуальная программа, длительностью в 4-7 недель</h2>
+                </div>
+            </section>
+            <section class="mentoring">
+                <div class="container">
+                    <div class="mentoring-content">
+                        <div class="mentoring-info">
+                            <p class="mentoring-is">Mentoring is:</p>
+                            <div class="personalization">
+                                <img src="./images/personalization.png" alt="personal" class="personal-img">
+                                <div></div>
+                                <div class="personalization-info">
+                                    <p class="personalization-info-text-1">персонализация</p>
+                                    <p  class="personalization-info-text-2">‌Надеюсь, ты понимаешь, почему формат марафонов не эффективен. Ты — индивид со своим конкретным строением, фигурой, метаболизмом, окружением и привычками. Поэтому сразу скажу, формат «один на всех» — не ко мне.</p>
+                                </div>
+                            </div>
+                            <div class="personalization">
+                                <img src="./images/knowledge.png" alt="personal" class="personal-img">
+                                <div></div>
+                                <div class="personalization-info">
+                                    <p class="personalization-info-text-1">знания</p>
+                                    <p  class="personalization-info-text-2">‌Я не хочу, чтобы после окончания наставничества вы вернулись в прежнее состояние, поэтому я дам вам все, чтобы о старте и мысли не было</p>
+                                </div>
+                            </div>
+                            <div class="personalization">
+                                <img src="./images/plan.png" alt="personal" class="personal-img">
+                                <div></div>
+                                <div class="personalization-info">
+                                    <p class="personalization-info-text-1">план и контроль </p>
+                                    <p  class="personalization-info-text-2">‌Чтобы от тренировок реально был результат, нужна четкость в упражнениях и их порядке. Я не только обеспечу тебе это, но и прослежу, чтобы ты все выполнила</p>
+                                </div>
+                            </div>
+                            <div class="personalization">
+                                <img src="./images/heart.png" alt="personal" class="personal-img">
+                                <div></div>
+                                <div class="personalization-info">
+                                    <p class="personalization-info-text-1">коучинговые сессии</p>
+                                    <p  class="personalization-info-text-2">‌Длительностью в 1 — 1,5 часа, проходят один-два раза в неделю в фиксированный день. На них мы разбираем внутренние установки и вопросы ментального здоровья</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mentoring-image">
+                            <img src="./images/diagram.png" alt="diagramma">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="cases">
+                <div class="container mod-cont">
+                    <div class="cases-content">
+                        <h2 class="cases-text">кейсы</h2>
+                        <div class="swiper cases-slider">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="cases-slide">
+                                        <div class="slide-info">
+                                            <div class="slide-info-text">
+                                                <p class="slide-info-date">12 недель</p>
+                                                <p class="slide-info-age">Возраст: 30 лет</p>
+                                            </div>
+                                            <img src="./images/fitness-body.png" alt="fitness-body" class="fitness-body">
+                                        </div>
+                                        <img src="./images/cases-slide-1.jpg" alt="cases-img">
+                                        <p class="cases-slide-text">«До работы с Катей у меня были проблемы с уверенностью в себе и мотивацией. Я была недовольна своей внешностью и...<span class="underline">Читать еще</span></p>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="cases-slide">
+                                        <div class="slide-info">
+                                            <div class="slide-info-text">
+                                                <p class="slide-info-date">24 недели</p>
+                                                <p class="slide-info-age">Возраст: 20 лет</p>
+                                            </div>
+                                            <img src="./images/fitness-body.png" alt="fitness-body" class="fitness-body">
+                                        </div>
+                                        <img src="./images/cases-slide-2.jpg" alt="cases-img">
+                                        <p class="cases-slide-text">«До того, как я узнала о тебе, Катя, я делала много ошибок в вопросе питания. Я пыталась похудеть, ограничивая свой...<span class="underline">Читать еще</span></p>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="cases-slide">
+                                        <div class="slide-info">
+                                            <div class="slide-info-text">
+                                                <p class="slide-info-date">18 недель</p>
+                                                <p class="slide-info-age">Возраст: 20 лет</p>
+                                            </div>
+                                            <img src="./images/fitness-body.png" alt="fitness-body" class="fitness-body">
+                                        </div>
+                                        <img src="./images/cases-slide-3.jpg" alt="cases-img">
+                                        <p class="cases-slide-text">«Примерно 6 месяцев назад Катя не давала мне спуску, контролируя мое  питание и занятия спортом. И это всё...<span class="underline">Читать еще</span></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="arrow-button cases-arrow">
+                    <div class="cases-arrow-left arrow">
+                        <img src="./images/left.png" alt="arrow-left">
+                    </div>
+                    <div class="cases-arrow-right arrow">
+                        <img src="./images/right.png" alt="arrow-right">
+                    </div>
+                </div>
+            </section>
+            <section class="who-do-i-work-with">
+                <div class="container">
+                    <div class="who-do-i-work-with-content">
+                        <h2 class="who-do-i-work-with-text">С кем я работаю</h2>
+                        <div class="swiper who-slider">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="who-do-slide">
+                                        <img src="./images/who-do-slide.jpg" alt="who-do-work" class="who-do-slide-img">
+                                        <div class="who-do-slide-info">
+                                            <p class="who-slide-text">Ходишь в зал вот уже несколько месяцев, а может и год, но до сих пор не видишь изменений?</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="who-do-slide">
+                                        <img src="./images/who-do-slide.jpg" alt="who-do-work" class="who-do-slide-img">
+                                        <div class="who-do-slide-info">
+                                            <p class="who-slide-text">Ходишь в зал вот уже несколько месяцев, а может и год, но до сих пор не видишь изменений?</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="who-do-slide">
+                                        <img src="./images/who-do-slide.jpg" alt="who-do-work" class="who-do-slide-img">
+                                        <div class="who-do-slide-info">
+                                            <p class="who-slide-text">Ходишь в зал вот уже несколько месяцев, а может и год, но до сих пор не видишь изменений?</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="who-do-slide">
+                                        <img src="./images/who-do-slide.jpg" alt="who-do-work" class="who-do-slide-img">
+                                        <div class="who-do-slide-info">
+                                            <p class="who-slide-text">Ходишь в зал вот уже несколько месяцев, а может и год, но до сих пор не видишь изменений?</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="who-button">
+                    <div class="who-arrow-left arrow">
+                        <img src="./images/left.png" alt="arrow-left">
+                    </div>
+                    <div class="who-arrow-right arrow">
+                        <img src="./images/right.png" alt="arrow-right">
+                    </div>
+                </div>
+                <div class="who-slider-pagintation">
+                    <div class="swiper-pagination who-pagin"></div>  
+                </div>
+            </section>
+            <h3 class="tagline-team">слоган или призыв присоединиться к команде, получить услугу и тд</h3>
+            <section class="rates">
+                <div class="container">
+                    <div class="rates-content">
+                        <h2 class="rates-text">Тарифы</h2>
+                        <div class="rates-cards">
+                            <div class="privat">
+                                <p class="privat-logo m-left-36">PRIVATE</p>
+                                <p class="individ-mentor m-left-36">индивидуальное наставничество</p>
+                                <div class="horizont-stick-white"></div>
+                                <div class="d-flex m-left-36"><img src="./images/Mask group.png" alt="img" class="d-flex-img"><p class="d-flex-text">Длительность 7 недель</p></div>
+                                <div class="d-flex m-left-36"><img src="./images/Mask group.png" alt="img" class="d-flex-img"><p class="d-flex-text">7 Барре тренировок онлайн с Катей</p></div>
+                                <div class="d-flex m-left-36"><img src="./images/Mask group.png" alt="img" class="d-flex-img"><p class="d-flex-text">Индивидуальное составление рациона</p></div>
+                                <div class="d-flex m-left-36"><img src="./images/Mask group.png" alt="img" class="d-flex-img"><p class="d-flex-text">Работа с нарушением циркадного ритма сна</p></div>
+                                <div class="d-flex m-left-36"><img src="./images/Mask group.png" alt="img" class="d-flex-img"><p class="d-flex-text">Анкетирование по вопросам ментального здоровья: выявление проблем, отклонений, расcтройств</p></div>
+                                <div class="d-flex m-left-36"><img src="./images/Mask group.png" alt="img" class="d-flex-img"><p class="d-flex-text">Еженедельные консультации по отслеживанию изменений</p></div>
+                                <div class="d-flex m-left-36"><img src="./images/Mask group.png" alt="img" class="d-flex-img"><p class="d-flex-text">Составление персональной тренировочной программы на 21 день</p></div>
+                                <div class="d-flex m-left-36"><img src="./images/Mask group.png" alt="img" class="d-flex-img"><p class="d-flex-text">2 коучинг- сессии по работе с внутренними проблемами</p></div>
+                                <div class="d-flex m-left-36"><img src="./images/Mask group.png" alt="img" class="d-flex-img"><p class="d-flex-text">Работа над личной эффективностью/когнитивные искажениями</p></div>
+                                <div class="d-flex m-left-36"><img src="./images/Mask group.png" alt="img" class="d-flex-img"><p class="d-flex-text">Общий чат и постоянная обратная связь в течение курса</p></div>
+                                <p class="privat-text m-left-36">Цены можно узнать на пробной бесплатной консультации</p>
+                                <button class="privat-button m-left-36">Получить консультацию</button>
+                            </div>
+                            <div class="basic">
+                                <p class="basic-logo m-left-29">basic</p>
+                                <p class="individ-mentor-black m-left-29">групповое наставничество</p>
+                                <div class="horizont-stick-black"></div>
+                                <div class="d-flex m-left-29"><img src="./images/Mask group-black.png" alt="img" class="d-flex-img"><p class="d-flex-text-black">Длительность 4 недели</p></div>
+                                <div class="d-flex m-left-29"><img src="./images/Mask group-black.png" alt="img" class="d-flex-img"><p class="d-flex-text-black">Понимание и закладывание фундамента по вопросу питания</p></div>
+                                <div class="d-flex m-left-29"><img src="./images/Mask group-black.png" alt="img" class="d-flex-img"><p class="d-flex-text-black">Индивидуальный рацион питания</p></div>
+                                <div class="d-flex m-left-29"><img src="./images/Mask group-black.png" alt="img" class="d-flex-img"><p class="d-flex-text-black">Диагностика и работа с нарушением циркадного ритма сна</p></div>
+                                <div class="d-flex m-left-29"><img src="./images/Mask group-black.png" alt="img" class="d-flex-img"><p class="d-flex-text-black">Анкетирование по вопросам ментального здоровья: выявление проблем, отклонений, расстройств</p></div>
+                                <div class="d-flex m-left-29"><img src="./images/Mask group-black.png" alt="img" class="d-flex-img"><p class="d-flex-text-black">Проработка и коррекция вопросов по ментальному здоровью</p></div>
+                                <div class="d-flex m-left-29"><img src="./images/Mask group-black.png" alt="img" class="d-flex-img"><p class="d-flex-text-black">Составление персональной тренировочной программы на 21 день</p></div>
+                                <div class="d-flex m-left-29"><img src="./images/Mask group-black.png" alt="img" class="d-flex-img"><p class="d-flex-text-black">7 Барре тренировок в записи + трекинг их выполнения</p></div>
+                                <div class="d-flex m-left-29"><img src="./images/Mask group-black.png" alt="img" class="d-flex-img"><p class="d-flex-text-black">Разбор самых частых ошибок в похудении / наборе массы</p></div>
+                                <p class="basic-text m-left-29">Цены можно узнать на пробной бесплатной консультации</p>
+                                <button class="basic-button m-left-29">Получить консультацию</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="plan">
+                <div class="container">
+                    <div class="plan-content">
+                        <img src="./images/kate.png" alt="kate" class="kate-img">
+                        <div class="plan-consult">
+                            <p class="plan-consult-text">ПЛАН КОНСУЛЬТАЦИИ:</p>
+                            <div class="step m-top">
+                                <div class="step-circle">1</div>
+                                <p>Вы рассказываете о вашей проблеме;</p>
+                            </div>
+                            <div class="step m-top">
+                                <div class="step-circle">2</div>
+                                <p>Я определяю, смогу ли вам помочь;</p>
+                            </div>
+                            <div class="step m-top">
+                                <div class="step-circle">3</div>
+                                <p>Если я смогу помочь, то рассказываю дальнейший порядок и условия работы, если не смогу помочь, то даю рекомендации к каким специалистам вам обратиться за решением проблемы.</p>
+                            </div>
+                            <p class="plan-consult-info m-top">Формат - онлайн</p>
+                            <p class="plan-consult-info">Продолжительность - до 30 минут</p>
+                            <p class="plan-consult-info">Стоимость - бесплатно</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="individual-services">
+                <div class="container">
+                    <div class="services-content">
+                        <img src="./images/atmosphere.png" alt="atmosphere" class="atmosphere">
+                        <div class="services-info">
+                            <p class="our-services">отдельные услуги :</p>
+                            <div class="arrow-text">
+                                <p class="arrow-text-barre">Барре:<br> индивидуальная<br> онлайн тренировка,<br> 55 мин</p>
+                                <img src="./images/arrow-right-black.png" alt="arrow" class="image-arrow">
+                                <p class="arrow-text-price">2500 рублей</p>
+                            </div>
+                            <div class="arrow-text">
+                                <p class="arrow-text-barre">Барре:<br> групповая онлайн<br> тренировка,<br> 55 мин</p>
+                                <img src="./images/arrow-right-black.png" alt="arrow" class="image-arrow">
+                                <p class="arrow-text-price">2000 рублей</p>
+                            </div>
+                            <p class="any-training-text">Вместо Барре Вы можете выбрать любую тренировку из перечисленных: HIIT, силовой тренинг, 
+                                круговая тренировка</p>
+                            <button class="service-button">Забронировать время</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="what-is-barre">
+                <di class="container">
+                    <h2 class="what-is-barre-text">Что такое барре?</h2>
+                        <div class="video">
+                            <iframe class="video-size" width="100%" height="500px" src="https://www.youtube.com/embed/GIXsqY62F5E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                </div>
+            </section>
+            <section class="reviews">
+                <div class="container">
+                    <h2 class="reviews-text">отзывы</h2>
+                    <div class="swiper reviews-slider">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img src="./images/reviews-slide-1.png" alt="reviews" class="review-img">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./images/reviews-slide-2.jpg" alt="reviews" class="review-img">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./images/reviews-slide-3.png" alt="reviews" class="review-img">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./images/reviews-slide-4.png" alt="reviews" class="review-img">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./images/car.jpg" alt="reviews" class="review-img">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="arrow-button reviews-arrow">
+                    <div class="review-arrow-left arrow">
+                        <img src="./images/left.png" alt="arrow-left">
+                    </div>
+                    <div class="review-arrow-right arrow">
+                        <img src="./images/right.png" alt="arrow-right">
+                    </div>
+                </div>
+                <div class="review-slider-pagintation">
+                    <div class="swiper-pagination review-pagin"></div>  
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-content">
+                    <div class="contacts">
+                        <p class="contacts-text">Контакты</p>
+                        <div class="social">
+                            <a href="#"><img src="./images/whatsapp.png" alt="whatsapp"></a>
+                            <a href="#"><img src="./images/instagram.png" alt="intagram"></a>
+                            <a href="#"><img src="./images/telegram.png" alt="telegram"></a>
+                        </div>
+                    </div>
+                    <div class="politics">
+                        <p class="politics-text">Политика конфиденциальности</p>
+                        <p class="design-author">Powered by CYBERSTRIDES</p>
+                    </div>
+                    <button class="footer-button">Получить консультацию</button>
+                </div>
+            </div>
+        </footer>
     </div>
+    <div class="circle one"></div>
+    <div class="circle two"></div>
+    <div class="circle three"></div>
+    <div class="circle four"></div>
+    <div class="circle five"></div>
+    <div class="circle six"></div>
+    <div class="circle seven"></div>
+    <div class="circle eight"></div>
+    <div class="circle nine"></div>
+    <div class="circle ten"></div>
+    <div class="circle eleven"></div>
+    <div class="circle twelve"></div>
+    <div class="triangle-one"></div>
+    <div class="triangle-two"></div>
 </body>
 </html>

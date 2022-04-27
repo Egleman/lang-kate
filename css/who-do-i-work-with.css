@@ -1,0 +1,83 @@
+.who-do-i-work-with-text {
+    font-family: 'Ruda';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+    margin-bottom: 50px;
+    margin-top: 70px;
+}
+.who-do-slide-img {
+    width: 996px;
+    height: 500px;
+    object-fit: cover;
+}
+.who-do-slide {
+    margin: 0 auto;
+    max-width: 996px;
+}
+
+.who-do-slide-info {
+    height: 50px;
+    width: 100%;
+    background: rgba(235, 111, 255, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -5px;
+}
+
+.who-slide-text {
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: #000000;
+}
+.who-button {
+    margin: 0 auto;
+    max-width: 1100px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    bottom: 300px;
+}
+
+.who-slider-pagintation {
+    padding-bottom: 50px;
+}
+.who-slider-pagintation .swiper-pagination-bullet {
+    width: 15px;
+    height: 15px;
+    background-color: transparent;
+    border: 2px solid #EB6FFF;
+    margin: 0 7.5px;
+}
+.who-slider-pagintation .swiper-pagination-bullet-active {
+    background-color: #EB6FFF;
+}
+
+.who-slider-pagintation .swiper-pagination {
+    position: relative;
+    bottom: 0px;
+}
+.who-slider {
+    max-width: 996px;
+}
+
+.tagline-team {
+    font-family: 'Ruda', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #000000;
+    margin-bottom: 100px;
+}

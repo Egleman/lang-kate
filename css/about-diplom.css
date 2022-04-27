@@ -1,0 +1,59 @@
+.about-diploms {
+    background: #CAE9EB;
+}
+.diploms-slide {
+    max-width: 281px;
+    max-height: 432px;
+    display: flex;
+    justify-content: center;
+}
+.img-slide {
+    object-fit: cover;
+    width: 281px;
+    height: 432px;
+}
+.arrow-button {
+    margin: 0 auto;
+    max-width: 1300px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    bottom: 250px;
+}
+.arrow {
+    cursor: pointer;
+}
+.diploms-slider-pagintation {
+    padding-bottom: 50px;
+}
+.diploms-slider-pagintation .swiper-pagination-bullet {
+    width: 15px;
+    height: 15px;
+    background-color: transparent;
+    border: 2px solid #EB6FFF;
+    margin: 0 7.5px;
+}
+.diploms-slider-pagintation .swiper-pagination-bullet-active {
+    background-color: #EB6FFF;
+}
+
+.diploms-slider-pagintation .swiper-pagination {
+    position: relative;
+    bottom: 0px;
+}
+/* .swiper-pagination-bullet-active {
+    
+} */
+
+/* .swiper-pagination-bullet {
+    
+} */
+/* .swiper-pagination {
+    position: relative;
+    margin-top: 25px !important;
+    transform: translate3d(0,-75px,0);
+} */
+.diploms-swiper {
+    padding-top: 74px;
+    padding-bottom: 25px;
+}

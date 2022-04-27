@@ -1,0 +1,38 @@
+.reviews-text {
+    font-family: 'Ruda', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #000000;
+    margin: 100px 0px 75px 0px;
+    text-align: center;
+}
+.review-img {
+    width: 281px;
+    height: 432px;
+    object-fit: cover;
+}
+
+.review-slider-pagintation {
+    padding-bottom: 50px;
+}
+.review-slider-pagintation .swiper-pagination-bullet {
+    width: 15px;
+    height: 15px;
+    background-color: transparent;
+    border: 2px solid #EB6FFF;
+    margin: 0 7.5px;
+}
+.review-slider-pagintation .swiper-pagination-bullet-active {
+    background-color: #EB6FFF;
+}
+
+.review-slider-pagintation .swiper-pagination {
+    position: relative;
+    bottom: 0px;
+}
+.reviews-arrow {
+    bottom: 220px;
+}

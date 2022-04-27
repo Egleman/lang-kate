@@ -1,0 +1,68 @@
+.footer {
+    height: 185px;
+    margin-top: 50px;
+    background: linear-gradient(180deg, #CAE9EB 0%, #EB6FFF 100%);
+    display: flex;
+    align-items: center;
+}
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 1200px;
+}
+.social {
+    display: flex;
+    width: 146px;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+.contacts-text {
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+
+.politics-text {
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+.design-author {
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: #FFFFFF;
+    margin-top: 27px;
+}
+.footer-button {
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: none;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    background-color: transparent;
+    cursor: pointer;
+    width: 281px;
+    height: 60px;
+}
+
+.footer-button:hover {
+    background: #fff;
+    color: #000;
+}

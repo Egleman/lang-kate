@@ -1,0 +1,108 @@
+.circle {
+    position: absolute;
+    border-radius: 100%;
+    background: rgba(235, 111, 255, 0.25);
+}
+
+.one {
+    width: 296px;
+    height: 296px;
+    top: 944px;
+    left: -148px;
+}
+
+.two {
+    width: 284px;
+    height: 284px;
+    top: 769px;
+    left: 638px;
+}
+
+.three {
+    width: 334px;
+    height: 334px;
+    top: 1341px;
+    left: 458px;
+}
+
+.four {
+    width: 167px;
+    height: 167px;
+    top: 1552px;
+    left: 723px;
+}
+
+.five {
+    width: 334px;
+    height: 334px;
+    top: 1130px;
+    left: 902px;
+}
+
+.six {
+    width: 93px;
+    height: 186px;
+    top: 1278px;
+    right: 0px;
+    border-radius: 100% 0 0 100% / 50% 0 0 50% !important;
+}
+
+.seven {
+    width: 95px;
+    height: 95px;
+    top: 4160px;
+    left: 835px;
+}
+
+.eight {
+    width: 334px;
+    height: 334px;
+    top: 4850px;
+    right: 250px;
+}
+.nine {
+    width: 186px;
+    height: 93px;
+    top: 4965px;
+    left: 550px;
+    border-radius: 50% 50% 0 0 / 100% 100% 0 0 !important;
+}
+.ten {
+    width: 680px;
+    height: 680px;
+    top: 6670px;
+    left: 250px;
+}
+.eleven {
+    width: 338px;
+    height: 338px;
+    top: 6820px;
+    right: 380px;
+}
+.twelve {
+    width: 172px;
+    height: 172px;
+    top: 7075px;
+    right: 350px;
+}
+
+.triangle-one {
+    width: 39.73%;
+    height: 356px;
+    border-bottom: 1px solid #EB6FFF;
+    border-right: 1px solid #EB6FFF;
+    position: absolute;
+    left: 0px;
+    top: 1055.5px;
+}
+
+.triangle-two {
+    max-width: 755px;
+    width: 100%;
+    height: 155px;
+    border-bottom: 1px solid #EB6FFF;
+    border-left: 1px solid #EB6FFF;
+    position: absolute;
+    right: 0px;
+    top: 1360.5px;
+}

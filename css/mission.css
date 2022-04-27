@@ -1,0 +1,86 @@
+.misson {
+    background: linear-gradient(90deg, rgba(235, 111, 255, 0.25) 0%, rgba(202, 233, 235, 0.25) 100%);
+}
+
+.mission-content {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding-top: 75px;
+}
+
+.mission-column-1 {
+    display: grid;
+    grid-template-columns: 383px auto;
+    overflow: hidden;
+    z-index: 1;
+}
+.mission-column-2 {
+    display: grid;
+    grid-template-columns: 217px 383px;
+    overflow-y: hidden;
+    margin-top: 102px;
+    z-index: 1;
+}
+.mission-text-left {
+    width: 301px;
+    position: relative;
+    top: 25px;
+    left: -65px
+}
+.mission-text-right {
+    width: 281px;
+    position: relative;
+    top: 239px;
+}
+.text-right-1 {
+    font-family: 'Ruda', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 25px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #000000;
+    text-align: right;
+}
+.text-right-2 {
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 25px;
+    text-align: right;
+    color: #000000;
+    margin-top: 25px;
+}
+.text-left-1 {
+    font-family: 'Ruda', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 25px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #000000;
+}
+.text-left-2 {
+    font-family: 'Ruda', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #000000;
+    margin-top: 25px;
+}
+
+.about-text {
+    text-align: center;
+    margin-top: 136px;
+    font-family: 'Ruda', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #000000;
+    overflow-y: hidden;
+}

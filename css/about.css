@@ -1,0 +1,129 @@
+.mod {
+    max-width: 1440px;
+    background: url(../images/about.png) no-repeat 0% 66%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.about {
+    background: linear-gradient(90deg, rgba(235, 111, 255, 0.25) 0%, rgba(202, 233, 235, 0.25) 100%);
+}
+
+.about-content {
+    margin: 0 auto;
+    max-width: 1278px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    
+}
+
+.card {
+    padding-top: 5px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card:nth-child(1) {
+    margin-top: 10px;
+}
+.card:nth-child(2) {
+    margin-top: 120px;
+}
+.card:nth-child(3) {
+    margin-top: 172px;
+}
+.card:nth-child(4) {
+    margin-top: 98px;
+}
+.card:nth-child(5) {
+    margin-top: 232px;
+}
+.card:nth-child(6) {
+    margin-top: 302px;
+}
+.card-number {
+    font-family: 'Ruda', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 90px;
+    line-height: 65px;
+    text-transform: uppercase;
+    color: rgba(235, 111, 255, 0.5);
+    text-align: center;
+    overflow-y: hidden;
+    height: 70px;
+    padding-top: 5px;
+}
+
+.card-text {
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.stick {
+    height: 75px;
+    width: 1px;
+    border: 2px solid #EB6FFF;
+}
+
+.about-button {
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #EB6FFF;
+    text-decoration: none;
+    padding: 20px 23px;
+    border: 2px solid #EB6FFF;
+    border-radius: 10px;
+    background-color: transparent;
+    cursor: pointer;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+.about-button:hover {
+    background-color: #EB6FFF;
+    color: #fff;
+}
+
+.card-mobile {
+    width: 210px;
+}
+.about-content-mobile {
+    margin: 0 auto;
+    padding-top: 40px;
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+    display: none;
+}
+.arrow-slider-mobile {
+    display: none;
+    justify-content: space-between;
+    max-width: 900px;
+    position: relative;
+    top: 225px;
+    margin: 0 auto;
+}
+.card-text-mobile {
+    height: 90px;
+}
+.mobile-slide {
+    display: flex;
+    justify-content: center;
+}
