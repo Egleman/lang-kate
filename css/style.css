@@ -226,6 +226,9 @@
         max-width: 960px;
         width: 100%;
     }
+    .privat {
+        margin-right: 0px;
+    }
 }
 @media (max-width: 1014px) {
     .pc-menu {
