@@ -14,11 +14,13 @@
     justify-content: space-between;
 }
 .privat {
-    width: 588px;
+    max-width: 588px;
+    width: 100%;
     height: 652px;
     background: #EB6FFF;
     border-radius: 10px;
     padding-top: 35px;
+    padding-right: 25px;
 }
 .privat-logo {
     background: #FFFFFF;
@@ -104,7 +106,8 @@
     margin-left: 36px;
 }
 .basic {
-    width: 587.51px;
+    max-width: 587.51px;
+    width: 100%;
     height: 588px;
     background: #CAE9EB;
     border-radius: 10px;

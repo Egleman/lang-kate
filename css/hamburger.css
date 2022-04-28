@@ -105,3 +105,16 @@
   .hamburger-menu {
       display: none;
   }
+  .lang-mobile {
+    margin-top: 50px;
+    max-width: 90px;
+    width: 100%;
+    justify-content: space-between;
+    margin-left: 20px;
+  }
+  .social-mobile {
+    max-width: 150px;
+    width: 100%;
+    justify-content: space-between;
+    margin-left: 20px;
+  }

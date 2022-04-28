@@ -10,9 +10,14 @@ const swiper = new Swiper('.diploms-swiper', {
         // when window width is >= 480px
       847: {
         slidesPerView: 1,
+        spaceBetween: 0,
       },
       848: {
         slidesPerView: 2,
+        spaceBetween: 60,
+      },
+      1200: {
+        slidesPerView: 3,
         spaceBetween: 60,
       },
         // when window width is >= 640px
@@ -147,4 +152,9 @@ const swiper = new Swiper('.diploms-swiper', {
     },
   });
 
-  
+
+
+
+  let scroll = new SmoothScroll('a[href*="#"]', {
+    speed: 300
+  });

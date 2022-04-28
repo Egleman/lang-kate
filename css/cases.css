@@ -1,6 +1,6 @@
 .cases-text {
     text-align: center;
-    margin-top: 105px;
+    padding-top: 105px;
     font-family: 'Ruda', sans-serif;
     font-style: normal;
     font-weight: 900;
@@ -8,12 +8,19 @@
     line-height: 30px;
     text-transform: uppercase;
     color: #000000;
-    margin-bottom: 132px;
+    padding-bottom: 100px;
 }
 .cases-slide {
-    width: 383px;
+    max-width: 383px;
+    width: 100%;
     display: flex;
     flex-direction: column;
+}
+.cases-slide-image {
+    max-width: 383px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 .slide-info {
     height: 50px;

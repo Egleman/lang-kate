@@ -3,34 +3,33 @@
 }
 
 .mission-content {
-    display: grid;
-    grid-template-columns: 50% 50%;
+    display: flex;
     padding-top: 75px;
 }
-
+.mission-colum-img {
+    max-width: 383px;
+    width: 100%;
+    max-height: 550px;
+    height: 100%;
+}
 .mission-column-1 {
-    display: grid;
-    grid-template-columns: 383px auto;
-    overflow: hidden;
+    display: flex;
     z-index: 1;
 }
 .mission-column-2 {
-    display: grid;
-    grid-template-columns: 217px 383px;
-    overflow-y: hidden;
+    display: flex;
     margin-top: 102px;
     z-index: 1;
 }
 .mission-text-left {
-    width: 301px;
-    position: relative;
-    top: 25px;
-    left: -65px
+    margin-top: 26px;
+    margin-left: -90px;
+    white-space: nowrap;
 }
 .mission-text-right {
-    width: 281px;
     position: relative;
     top: 239px;
+    left: 56px;
 }
 .text-right-1 {
     font-family: 'Ruda', sans-serif;
@@ -51,6 +50,7 @@
     text-align: right;
     color: #000000;
     margin-top: 25px;
+    white-space: nowrap;
 }
 .text-left-1 {
     font-family: 'Ruda', sans-serif;
@@ -74,7 +74,7 @@
 
 .about-text {
     text-align: center;
-    margin-top: 136px;
+    padding-top: 136px;
     font-family: 'Ruda', sans-serif;
     font-style: normal;
     font-weight: 900;

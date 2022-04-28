@@ -1,19 +1,20 @@
 .footer {
-    height: 185px;
     margin-top: 50px;
     background: linear-gradient(180deg, #CAE9EB 0%, #EB6FFF 100%);
     display: flex;
     align-items: center;
 }
 .footer-content {
+    padding-top: 40px;
+    margin-bottom: 40px;
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    width: 1200px;
+    justify-content: space-between;
+    max-width: 1200px;
+    width: 100%;
 }
 .social {
     display: flex;
-    width: 146px;
     justify-content: space-between;
     margin-top: 25px;
 }
@@ -58,11 +59,14 @@
     border-radius: 10px;
     background-color: transparent;
     cursor: pointer;
-    width: 281px;
-    height: 60px;
+    padding: 20px 23px;
 }
 
 .footer-button:hover {
     background: #fff;
     color: #000;
+}
+.contacts {
+    max-width: 146px;
+    width: 100%;
 }
