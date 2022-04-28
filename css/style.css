@@ -37,7 +37,8 @@
 
 @media (max-width: 1900px) {
     .triangle-one {
-        width: 39.73%;
+        max-width: 40.73%;
+        width: 100%;
     }
     .triangle-two {
         width: 39.73%;
@@ -45,7 +46,8 @@
 }
 @media (max-width: 1800px) {
     .triangle-one {
-        width: 39.13%;
+        max-width: 40.13%;
+        width: 100%;
     }
     .triangle-two {
         width: 39.13%;
@@ -53,7 +55,8 @@
 }
 @media (max-width: 1700px) {
     .triangle-one {
-        width: 38.73%;
+        max-width: 39.73%;
+        width: 100%;
     }
     .triangle-two {
         width: 38.73%;
@@ -64,7 +67,8 @@
 }
 @media (max-width: 1500px) {
     .triangle-one {
-        width: 37.13%;
+        max-width: 38.13%;
+        width: 100%;
     }
     .triangle-two {
         width: 37.13%;
@@ -84,7 +88,8 @@
 }
 @media (max-width: 1300px) {
     .triangle-one {
-        width: 35.13%;
+        max-width: 36.13%;
+        width: 100%;
     }
     .triangle-two {
         width: 35.13%;
