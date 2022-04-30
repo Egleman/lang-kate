@@ -23,9 +23,7 @@
 .arrow {
     cursor: pointer;
 }
-.diploms-slider-pagintation {
-    padding-bottom: 50px;
-}
+
 .diploms-slider-pagintation .swiper-pagination-bullet {
     width: 15px;
     height: 15px;
@@ -41,19 +39,6 @@
     position: relative;
     bottom: 0px;
 }
-/* .swiper-pagination-bullet-active {
-    
-} */
-
-/* .swiper-pagination-bullet {
-    
-} */
-/* .swiper-pagination {
-    position: relative;
-    margin-top: 25px !important;
-    transform: translate3d(0,-75px,0);
-} */
-.diploms-swiper {
-    padding-top: 74px;
-    padding-bottom: 25px;
+.about-diploms {
+    padding: 75px 0px 50px 0px;
 }

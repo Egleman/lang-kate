@@ -158,3 +158,10 @@ const swiper = new Swiper('.diploms-swiper', {
   let scroll = new SmoothScroll('a[href*="#"]', {
     speed: 300
   });
+
+  let buttons = document.querySelectorAll('#btn');
+  buttons.forEach(btn => {
+    btn.addEventListener('click', () => {
+      document.location='https://katerinkisbooking.as.me/';
+    })
+  })

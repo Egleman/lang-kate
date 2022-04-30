@@ -1,6 +1,7 @@
 .misson {
     background: linear-gradient(90deg, rgba(235, 111, 255, 0.25) 0%, rgba(202, 233, 235, 0.25) 100%);
     padding-top: 75px;
+    padding-bottom: 60px;
 }
 
 .mission-content {
@@ -82,5 +83,4 @@
     text-transform: uppercase;
     color: #000000;
     overflow-y: hidden;
-    padding-top: 130px;
 }

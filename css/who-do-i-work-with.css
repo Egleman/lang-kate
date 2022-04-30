@@ -1,5 +1,5 @@
 .who-do-i-work-with {
-    padding-top: 70px;
+    padding: 50px 0px 45px 0px;
 }
 .who-do-i-work-with-text {
     font-family: 'Ruda';
@@ -116,7 +116,7 @@
     border-left-color: #CAE9EB;
 
     position: absolute;
-    left: 100%;
+    left: 99%;
     top: 80px;
 }
 .triangle-border-left::before {
@@ -156,6 +156,7 @@
 }
 .double-design {
     justify-content: center;
+    margin-bottom: 50px;
 }
 .min-height {
     min-height: 195.5px
@@ -170,4 +171,31 @@
 }
 .mobile-card-design {
     display: flex;
+}
+
+.carousel__inner {
+    width: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.carousel-wr {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+}
+.carousel-wr::-webkit-scrollbar {
+    display: none;
+}
+.mobile-card-design:not(:last-of-type) {
+    margin-right: 8px;
+}
+.mobile-card-design {
+    scroll-snap-align: start;
+    flex: 0 0 auto;
+}
+.carousel {
+    display: none;
+    margin-bottom: 50px;
 }

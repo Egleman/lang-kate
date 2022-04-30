@@ -2,15 +2,13 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 383px;
-    padding-bottom: 57px;
 }
 
 .header-banner {
     background: url(../images/banner.jpg) center/cover no-repeat;
     background-size: cover;
     width: 100%;
-    height: 765px;
+    padding: 380px 0px 60px 0px;
 }
 
 .banner-text {
@@ -23,6 +21,7 @@
     text-transform: uppercase;
     color: #fff;
     overflow-y: hidden;
+    margin-bottom: 25px;
 }
 .banner-tagline {
     font-family: 'Rubik', sans-serif;
@@ -32,7 +31,7 @@
     line-height: 20px;
     text-align: center;
     color: #FFFFFF;
-    margin-top: 25px;
+    margin-bottom: 50px;
 }
 .banner-button {
     font-family: 'Rubik', sans-serif;
@@ -45,7 +44,6 @@
     color: #CAE9EB;
     text-decoration: none;
     padding: 20px 23px;
-    margin-top: 50px;
     border: 2px solid #CAE9EB;
     border-radius: 10px;
     background-color: transparent;

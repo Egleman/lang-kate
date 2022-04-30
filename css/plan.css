@@ -1,5 +1,5 @@
 .plan {
-    margin-top: 147px;
+    padding-top: 70px;
 }
 .plan-content {
     display: flex;
@@ -54,6 +54,6 @@
     line-height: 35px;
     color: #EB6FFF;
 }
-.m-top {
-    margin-top: 30px;
+.m-bottom {
+    margin-bottom: 30px;
 }

@@ -1,9 +1,7 @@
 .mentoring {
-    padding: 100px 0px 100px 0px;
+    padding: 100px 0px 75px 0px;
 }
-.personaliz-last {
-    margin-bottom: 0px !important;
-}
+
 .mentoring-content {
     display: grid;
     grid-template-columns: 50% 50%;
@@ -16,6 +14,7 @@
     line-height: 30px;
     text-transform: uppercase;
     color: #000000;
+    margin-bottom: 25px;
 }
 .mentoring-info:nth-child(2) {
     margin-top: 25px;
@@ -23,11 +22,6 @@
 .personalization {
     display: grid;
     grid-template-columns: 75px 25px auto;
-    margin-top: 25px;
-    margin-bottom: 25px;
-}
-.personal-img {
-    margin-right: 25px;
 }
 
 .personalization-info-text-1 {
@@ -50,5 +44,8 @@
     max-width: 488px;
 }
 .mentoring-image {
-    margin-top: 161px;
+    padding-top: 160px;
 }
+.personaliz-margin:not(:last-of-type) {
+    margin-bottom: 25px;
+  }

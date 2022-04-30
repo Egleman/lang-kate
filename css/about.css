@@ -10,6 +10,7 @@
 .about {
     background: linear-gradient(90deg, rgba(235, 111, 255, 0.25) 0%, rgba(202, 233, 235, 0.25) 100%);
     padding-bottom: 100px;
+    padding-top: 60px;
 }
 
 .about-content {
@@ -17,6 +18,7 @@
     max-width: 1278px;
     display: grid;
     grid-template-columns: auto auto auto auto auto auto;
+    margin-bottom: 20px;
     
 }
 
@@ -94,7 +96,6 @@
     background-color: transparent;
     cursor: pointer;
     margin: 0 auto;
-    margin-top: 20px;
 }
 .about-button:hover {
     background-color: #EB6FFF;

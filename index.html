@@ -74,7 +74,7 @@
                 <div class="banner">
                     <h1 class="banner-text">Единственная красота, которую я знаю, — это здоровье.</h1>
                     <p class="banner-tagline">Рыбатекст используется дизайнерами, проектировщиками и фронтендерами,<br> когда нужно быстро заполнить макеты или прототипы содержимым.</p>
-                    <button class="banner-button">Получить консультацию</button>
+                    <button class="banner-button" id="btn">Получить консультацию</button>
                 </div>
             </div>
         </header>
@@ -97,7 +97,6 @@
                             <img src="./images/Rectangle 8.jpg" alt="img" class="mission-colum-img">
                         </div>
                     </div>
-                    <h2 class="about-text">О себе</h2>
                 </div>
             </section>
             <section class="about" id="about">
@@ -106,6 +105,7 @@
                     <img src="./images/right.png" alt="arrow-right" class="mobile-slider-about-right">
                 </div>
                 <div class="mod">
+                    <h2 class="about-text">О себе</h2>
                     <div class="about-content-mobile">
                         <div class="swiper about-slider-mobile">
                             <div class="swiper-wrapper">
@@ -199,7 +199,7 @@
                             <div class="stick"></div>
                         </div>
                     </div>
-                    <button class="about-button">Перейти к тарифам</button>
+                    <button class="about-button" id="btn">Перейти к тарифам</button>
                 </div>
             </section>
             <section class="about-diploms">
@@ -241,7 +241,7 @@
                     <div class="mentoring-content">
                         <div class="mentoring-info">
                             <p class="mentoring-is">Mentoring is:</p>
-                            <div class="personalization">
+                            <div class="personalization personaliz-margin">
                                 <img src="./images/personalization.png" alt="personal" class="personal-img">
                                 <div></div>
                                 <div class="personalization-info">
@@ -249,7 +249,7 @@
                                     <p  class="personalization-info-text-2">‌Надеюсь, ты понимаешь, почему формат марафонов не эффективен. Ты — индивид со своим конкретным строением, фигурой, метаболизмом, окружением и привычками. Поэтому сразу скажу, формат «один на всех» — не ко мне.</p>
                                 </div>
                             </div>
-                            <div class="personalization">
+                            <div class="personalization personaliz-margin">
                                 <img src="./images/knowledge.png" alt="personal" class="personal-img">
                                 <div></div>
                                 <div class="personalization-info">
@@ -257,7 +257,7 @@
                                     <p  class="personalization-info-text-2">‌Я не хочу, чтобы после окончания наставничества вы вернулись в прежнее состояние, поэтому я дам вам все, чтобы о старте и мысли не было</p>
                                 </div>
                             </div>
-                            <div class="personalization">
+                            <div class="personalization personaliz-margin">
                                 <img src="./images/plan.png" alt="personal" class="personal-img">
                                 <div></div>
                                 <div class="personalization-info">
@@ -265,7 +265,7 @@
                                     <p  class="personalization-info-text-2">‌Чтобы от тренировок реально был результат, нужна четкость в упражнениях и их порядке. Я не только обеспечу тебе это, но и прослежу, чтобы ты все выполнила</p>
                                 </div>
                             </div>
-                            <div class="personalization personaliz-last">
+                            <div class="personalization personaliz-margin personaliz-last">
                                 <img src="./images/heart.png" alt="personal" class="personal-img">
                                 <div></div>
                                 <div class="personalization-info">
@@ -342,54 +342,57 @@
                 <div class="container">
                     <div class="who-do-i-work-with-content">
                         <h2 class="who-do-i-work-with-text">С кем я работаю</h2>
-                            <div class="new-design-mobile">
-                                <div class="mobile-card-design">
-                                    <div class="elem-disgn triangle-border-right min-padding">
-                                        <p class="elem-disgn-text-1">С теми, кто не знает, где брать силы</p>
-                                        <p class="elem-disgn-text-2">Если ты не можешь себя замотивировать заниматься спортом после рабочего дня, когда выжата как лимон</p>
-                                    </div>
-                                     <div class="elem-disgn image-mobile-design">
-                                        <img src="./images/garfild.png" alt="" class="elem-disign-image">
+                            <div class="carousel">
+                                <div class="carousel__inner">
+                                    <div class="carousel-wr">
+                                        <div class="mobile-card-design">
+                                            <div class="elem-disgn triangle-border-right min-padding background-image-1">
+                                                <p class="elem-disgn-text-1">С теми, кто не знает, где брать силы</p>
+                                                <p class="elem-disgn-text-2">Если ты не можешь себя замотивировать заниматься спортом после рабочего дня, когда выжата как лимон</p>
+                                            </div>
+                                             <div class="elem-disgn image-mobile-design">
+                                                <img src="./images/garfild.png" alt="" class="elem-disign-image">
+                                            </div>
+                                        </div>
+                                        <div class="mobile-card-design">
+                                            <div class="elem-disgn triangle-border-right min-padding background-image-2">
+                                                <p class="elem-disgn-text-1">С теми, кто понимает, что пора что-то менять</p>
+                                                <p class="elem-disgn-text-2">Если тебе надоело однообразие и рутина, ты чувствуешь, что пора меняться, но не понимаешь, что делать</p>
+                                            </div>
+                                             <div class="elem-disgn image-mobile-design">
+                                                <img src="./images/girl-up.jpg" alt="" class="elem-disign-image">
+                                            </div>
+                                        </div>
+                                        <div class="mobile-card-design">
+                                            <div class="elem-disgn triangle-border-right min-padding background-image-3">
+                                                <p class="elem-disgn-text-1">С теми, кто не сдерживает себя и часто срывается</p>
+                                                <p class="elem-disgn-text-2">Если ты не контролируешь свои эмоции, заедаешь стресс и срываешься на сладкое</p>
+                                            </div>
+                                             <div class="elem-disgn image-mobile-design">
+                                                <img src="./images/girl-bottle.jpg" alt="" class="elem-disign-image">
+                                            </div>
+                                        </div>
+                                        <div class="mobile-card-design">
+                                            <div class="elem-disgn triangle-border-right min-padding background-image-4">
+                                                <p class="elem-disgn-text-1">С теми, кто потерял чувство ритма и времени</p>
+                                                <p class="elem-disgn-text-2">Если ты все время занята, не умеешь управлять временем и всё постоянно оставляешь на последний момент</p>
+                                            </div>
+                                             <div class="elem-disgn image-mobile-design">
+                                                <img src="./images/borring.jpg" alt="" class="elem-disign-image">
+                                            </div>
+                                        </div>
+                                        <div class="mobile-card-design">
+                                            <div class="elem-disgn triangle-border-right min-padding background-image-5">
+                                                <p class="elem-disgn-text-1">С теми, кто долго занимался сам, но безрезультатно</p>
+                                                <p class="elem-disgn-text-2">Усли ты ходишь в зал вот уже несколько месяцев или год, но до сих пор не видишь изменений</p>
+                                            </div>
+                                             <div class="elem-disgn image-mobile-design">
+                                                <img src="./images/marge.jpg" alt="" class="elem-disign-image">
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="mobile-card-design">
-                                    <div class="elem-disgn image-mobile-design">
-                                        <img src="./images/girl-up.jpg" alt="" class="elem-disign-image">
-                                    </div>   
-                                    <div class="elem-disgn triangle-border-left min-padding mobile-color">
-                                        <p class="elem-disgn-text-1">С теми, кто понимает, что пора что-то менять</p>
-                                        <p class="elem-disgn-text-2">Если тебе надоело однообразие и рутина, ты чувствуешь, что пора меняться, но не понимаешь, что делать</p>
-                                    </div>
-                                </div>
-                                <div class="mobile-card-design">
-                                    <div class="elem-disgn triangle-border-right min-padding-big">
-                                        <p class="elem-disgn-text-1">С теми, кто не сдерживает себя и часто срывается</p>
-                                        <p class="elem-disgn-text-2">Если ты не контролируешь свои эмоции, заедаешь стресс и срываешься на сладкое</p>
-                                    </div>
-                                     <div class="elem-disgn image-mobile-design">
-                                        <img src="./images/girl-bottle.jpg" alt="" class="elem-disign-image">
-                                    </div>
-                                </div>
-                                <div class="mobile-card-design">
-                                    <div class="elem-disgn image-mobile-design">
-                                        <img src="./images/borring.jpg" alt="" class="elem-disign-image">
-                                    </div>   
-                                    <div class="elem-disgn triangle-border-left mobile-color">
-                                        <p class="elem-disgn-text-1">С теми, кто потерял чувство ритма и времени</p>
-                                        <p class="elem-disgn-text-2">Если ты все время занята, не умеешь управлять временем и всё постоянно оставляешь на последний момент</p>
-                                    </div>
-                                </div>
-                                <div class="mobile-card-design">
-                                    <div class="elem-disgn triangle-border-right none-triangle">
-                                        <p class="elem-disgn-text-1">С теми, кто долго занимался сам, но безрезультатно</p>
-                                        <p class="elem-disgn-text-2">Усли ты ходишь в зал вот уже несколько месяцев или год, но до сих пор не видишь изменений</p>
-                                    </div>
-                                     <div class="elem-disgn image-mobile-design">
-                                        <img src="./images/marge.jpg" alt="" class="elem-disign-image">
-                                    </div>
-                                </div>
-                            </div>
-                            
+                            </div>                         
                             <div class="new-design">
                                 <div class="elem-disgn triangle-border-right">
                                     <p class="elem-disgn-text-1">С теми, кто не знает, где брать силы</p>
@@ -431,60 +434,11 @@
                                     <p class="elem-disgn-text-2">Усли ты ходишь в зал вот уже несколько месяцев или год, но до сих пор не видишь изменений</p>
                                 </div>
                             </div>
-                                
-                        
-                        
-                        <div class="swiper who-slider" style="display: none;">
-                            <div class="swiper-wrapper">
-                                <div class="swiper-slide">
-                                    <div class="who-do-slide">
-                                        <img src="./images/who-do-slide.jpg" alt="who-do-work" class="who-do-slide-img">
-                                        <div class="who-do-slide-info">
-                                            <p class="who-slide-text">Ходишь в зал вот уже несколько месяцев, а может и год, но до сих пор не видишь изменений?</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="who-do-slide">
-                                        <img src="./images/who-do-slide.jpg" alt="who-do-work" class="who-do-slide-img">
-                                        <div class="who-do-slide-info">
-                                            <p class="who-slide-text">Ходишь в зал вот уже несколько месяцев, а может и год, но до сих пор не видишь изменений?</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="who-do-slide">
-                                        <img src="./images/who-do-slide.jpg" alt="who-do-work" class="who-do-slide-img">
-                                        <div class="who-do-slide-info">
-                                            <p class="who-slide-text">Ходишь в зал вот уже несколько месяцев, а может и год, но до сих пор не видишь изменений?</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="who-do-slide">
-                                        <img src="./images/who-do-slide.jpg" alt="who-do-work" class="who-do-slide-img">
-                                        <div class="who-do-slide-info">
-                                            <p class="who-slide-text">Ходишь в зал вот уже несколько месяцев, а может и год, но до сих пор не видишь изменений?</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
                     </div>
-                </div>
-                <div class="who-button" style="display: none;">
-                    <div class="who-arrow-left arrow">
-                        <img src="./images/left.png" alt="arrow-left">
-                    </div>
-                    <div class="who-arrow-right arrow">
-                        <img src="./images/right.png" alt="arrow-right">
-                    </div>
-                </div>
-                <div class="who-slider-pagintation">
-                    <div class="swiper-pagination who-pagin"></div>  
+                    <h3 class="tagline-team">слоган или призыв присоединиться к команде, получить услугу и тд</h3>
                 </div>
             </section>
-            <h3 class="tagline-team">слоган или призыв присоединиться к команде, получить услугу и тд</h3>
+            
             <section class="rates" id="rates">
                 <div class="container">
                     <div class="rates-content">
@@ -505,7 +459,7 @@
                                 <div class="d-flex"><img src="./images/Mask group.png" alt="img" class="d-flex-img"><p class="d-flex-text">Работа над личной эффективностью/когнитивные искажениями</p></div>
                                 <div class="d-flex"><img src="./images/Mask group.png" alt="img" class="d-flex-img"><p class="d-flex-text">Общий чат и постоянная обратная связь в течение курса</p></div>
                                 <p class="privat-text">Цены можно узнать на пробной бесплатной консультации</p>
-                                <button class="privat-button">Получить консультацию</button>
+                                <button class="privat-button" id="btn">Получить консультацию</button>
                             </div>
                             <div class="basic">
                                 <p class="basic-logo">basic</p>
@@ -521,7 +475,7 @@
                                 <div class="d-flex"><img src="./images/Mask group-black.png" alt="img" class="d-flex-img"><p class="d-flex-text-black">7 Барре тренировок в записи + трекинг их выполнения</p></div>
                                 <div class="d-flex"><img src="./images/Mask group-black.png" alt="img" class="d-flex-img"><p class="d-flex-text-black">Разбор самых частых ошибок в похудении / наборе массы</p></div>
                                 <p class="basic-text">Цены можно узнать на пробной бесплатной консультации</p>
-                                <button class="basic-button">Получить консультацию</button>
+                                <button class="basic-button" id="btn">Получить консультацию</button>
                             </div>
                         </div>
                     </div>
@@ -532,20 +486,20 @@
                     <div class="plan-content">
                         <img src="./images/kate.png" alt="kate" class="kate-img">
                         <div class="plan-consult">
-                            <p class="plan-consult-text">ПЛАН КОНСУЛЬТАЦИИ:</p>
-                            <div class="step m-top">
+                            <p class="plan-consult-text m-bottom">ПЛАН КОНСУЛЬТАЦИИ:</p>
+                            <div class="step m-bottom">
                                 <div class="step-circle">1</div>
                                 <p>Вы рассказываете о вашей проблеме;</p>
                             </div>
-                            <div class="step m-top">
+                            <div class="step m-bottom">
                                 <div class="step-circle">2</div>
                                 <p>Я определяю, смогу ли вам помочь;</p>
                             </div>
-                            <div class="step m-top">
+                            <div class="step m-bottom">
                                 <div class="step-circle">3</div>
                                 <p>Если я смогу помочь, то рассказываю дальнейший порядок и условия работы, если не смогу помочь, то даю рекомендации к каким специалистам вам обратиться за решением проблемы.</p>
                             </div>
-                            <p class="plan-consult-info m-top">Формат - онлайн</p>
+                            <p class="plan-consult-info">Формат - онлайн</p>
                             <p class="plan-consult-info">Продолжительность - до 30 минут</p>
                             <p class="plan-consult-info">Стоимость - бесплатно</p>
                         </div>
@@ -570,9 +524,9 @@
                             </div>
                             <p class="any-training-text">Вместо Барре Вы можете выбрать любую тренировку из перечисленных: HIIT, силовой тренинг, 
                                 круговая тренировка</p>
-                            <button class="service-button">Забронировать время</button>
+                            <button class="service-button" id="btn">Забронировать время</button>
                         </div>
-                        <div class="services-info-mobile">
+                        <div class="services-info-mobile-1">
                             <p class="our-services our-services-mobile">отдельные услуги :</p>
                             <div class="services-info-mobile-content">
                                 <div class="arrow-text-mobile">
@@ -588,13 +542,30 @@
                             </div>
                             <p class="any-training-text">Вместо Барре Вы можете выбрать любую тренировку из перечисленных: HIIT, силовой тренинг, 
                                 круговая тренировка</p>
-                            <button class="service-button service-button-mobile">Забронировать время</button>
+                            <button class="service-button service-button-mobile" id="btn">Забронировать время</button>
+                        </div>
+                        <div class="services-info-mobile-2">
+                            <p class="our-services our-services-mobile">отдельные услуги :</p>
+                            <div class="services-info-mobile-content">
+                                <div class="arrow-text-mobile border-arrow-text-mobile">
+                                    <p class="arrow-text-barre">Барре: индивидуальная онлайн тренировка, 55 мин</p>
+                                    <p class="arrow-text-price">2500 рублей</p>
+                                </div>
+                                <div class="arrow-text-mobile">
+                                    <p class="arrow-text-barre">Барре: групповая онлайн тренировка, 55 мин</p>
+                                    <p class="arrow-text-price">2000 рублей</p>
+                                </div>
+                            </div>
+                            <p class="any-training-text">Вместо Барре Вы можете выбрать любую тренировку из перечисленных: HIIT, силовой тренинг, 
+                                круговая тренировка</p>
+                            <button class="service-button service-button-mobile" id="btn">Забронировать время</button>
                         </div>
                     </div>
+                    
                 </div>
             </section>
             <section class="what-is-barre">
-                <di class="container">
+                <div class="container">
                     <h2 class="what-is-barre-text">Что такое барре?</h2>
                         <div class="video">
                             <iframe class="video-size" width="100%" height="500px" src="https://www.youtube.com/embed/GIXsqY62F5E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -652,7 +623,7 @@
                         <p class="politics-text">Политика конфиденциальности</p>
                         <p class="design-author">Powered by CYBERSTRIDES</p>
                     </div>
-                    <button class="footer-button">Получить консультацию</button>
+                    <button class="footer-button" id="btn">Получить консультацию</button>
                 </div>
             </div>
         </footer>

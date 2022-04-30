@@ -109,6 +109,13 @@
 }
 
 @media (max-width: 1216px) {
+    .cases-text {
+        margin-bottom: 70px;
+    }
+    .about {
+        padding-bottom: 60px;
+        padding-top: 20px;
+    }
     .elem-disgn {
         max-width: 232.5px;
     }
@@ -155,7 +162,7 @@
         align-items: center;
     }
     .mentoring-image {
-        margin-top: 50px;
+        padding-top: 50px;
     }
     .cases-arrow {
         max-width: 600px;
@@ -170,11 +177,15 @@
     .atmosphere {
         position: static;
         margin: 0 auto;
+        margin-bottom: 25px;
+    }
+    .arrow-text-mobile {
+        margin-bottom: 25px;
     }
     .services-info {
         display: none;
     }
-    .services-info-mobile {
+    .services-info-mobile-1 {
         display: flex;
     }
     .any-training-text {
@@ -249,7 +260,6 @@
     }
     .banner-text {
         font-size: 50px;
-        width: 1000px;
     }
     .container {
         max-width: 960px;
@@ -278,7 +288,7 @@
     .new-design {
         display: none;
     }
-    .new-design-mobile {
+    .carousel{
         display: flex;
     }
     .pc-menu {
@@ -304,9 +314,11 @@
     .header-menu-content>ul>li {
         font-size: 14px;
     }
+    .header-banner {
+        padding: 250px 0px 60px 0px;
+    }
     .banner-text {
         font-size: 37px;
-        width: 768px;
     }
     .banner-tagline {
         font-size: 14px;
@@ -331,10 +343,6 @@
     .who-slide-text {
         font-size: 15px;
     }
-    /* .who-do-slide-img {
-        width: 768px;
-        height: 385px;
-    } */
     .who-button {
         max-width: 845px;
         bottom: 225px;
@@ -366,7 +374,8 @@
         line-height: 30px;
     }
     .banner-text {
-        line-height: 45px;
+        line-height: 35px;
+        font-size: 25px;
     }
     .m-left-29 {
         margin-right: 20px;
@@ -382,12 +391,8 @@
         max-width: 500px;
         width: 100%;
     }
-    .banner-text {
-        font-size: 25px;
-        width: 440px;
-    }
     .banner-tagline {
-        font-size: 12px;
+        font-size: 11px;
     }
     .mission-column-1 {
         display: flex;
@@ -413,6 +418,7 @@
     }
     .about-content-mobile {
         max-width: 210px;
+        margin-bottom: 50px;
     }
     .arrow-slider-mobile {
         max-width: 320px;
@@ -448,6 +454,7 @@
     }   
     .arrow-text-barre {
         font-size: 18px;
+        max-width: 190px;
     }
     .arrow-text-price {
         font-size: 20px;
@@ -462,9 +469,121 @@
     .video-size {
         height: 289px;
     }
-    
+    .background-image-1 {
+        background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../images/garfild.png);
+    }
+    .background-image-2 {
+        background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../images/girl-up.jpg);
+    }
+    .background-image-3 {
+        background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../images/girl-bottle.jpg);
+    }
+    .background-image-4 {
+        background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../images/borring.jpg);
+    }
+    .background-image-5 {
+        background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../images/marge.jpg);
+    }
+    .elem-disgn p {
+        color: #fff;
+    }
+    .elem-disgn {
+        max-width: 263.5px;
+    }
+    .image-mobile-design {
+        display: none;
+    }
+    .triangle-border-right::after {
+        top: 99%;
+        border-top-color: transparent;
+        left: 43%;
+        border-left-color: transparent;
+    }
+    .triangle-border-left::before {
+        top: 99%;
+        border-top-color: transparent;
+        right: 43%;
+        border-left-color: transparent;
+    }
+    .none-triangle::after {
+        border-top-color: transparent;
+    }
+    .mentoring {
+        padding: 60px 0px 35px 0px;
+    }
+    .cases {
+        padding: 35px 0px 50px 0px;
+    }
 }
 @media (max-width: 620px) {
+    .services-info-mobile-1 {
+        display: none;
+    }
+    .services-info-mobile-2 {
+        display: flex;
+    }
+    .arrow-text-mobile {
+        margin-bottom: 20px;
+        padding-bottom: 20px;
+        display: block;
+    }
+    .any-training-text {
+        line-height: 20px;
+        font-size: 14px;
+    }
+    .arrow-text-barre {
+        margin-bottom: 6px;
+        text-align: center;
+        width: 100%;
+        white-space: normal;
+        max-width: 100%;
+        line-height: 20px;
+    }
+    .border-arrow-text-mobile {
+        border-bottom: 1px solid white;
+    }
+    .our-services {
+        margin-bottom: 20px;
+    }
+    .arrow-text-price {
+        text-align: center;
+    }
+    .rates {
+        padding: 45px 0px 35px 0px;
+    }
+    .plan {
+        padding-top: 35px;
+    }
+    .plan-consult-text {
+        font-size: 24px;
+    }
+    .step p {
+        font-size: 20px;
+    }
+    .plan-consult-info {
+        font-size: 25px;
+    }
+    .cases-text {
+        margin-bottom: 40px;
+        font-size: 25px;
+    }
+    .who-do-i-work-with-text {
+        font-size: 25px;
+        margin-bottom: 40px;
+    }
+    .rates-text {
+        font-size: 25px;
+        margin-bottom: 40px;
+    }
+    .cases {
+        padding: 35px 0px 25px 0px;
+    }
+    .mentoring {
+        padding: 60px 0px 35px 0px;
+    }
+    .mentoring-is {
+        font-size: 22px;
+    }
     .personal-img {
         max-width: 50px;
         width: 100%;
@@ -474,6 +593,7 @@
     }
     .personalization-info-text-2 {
         font-size: 13px;
+        line-height: 20px;
     }
     .personalization {
         grid-template-columns: 50px 25px auto;
@@ -481,24 +601,11 @@
     .work-format-text {
         line-height: 25px;
     }
-    .triangle-border-right::after {
-        top: 99%;
-        border-top-color: #CAE9EB;
-        left: 43%;
-        border-left-color: transparent;
-    }
-    .triangle-border-left::before {
-        top: 99%;
-        border-top-color: #CAE9EB;
-        right: 43%;
-        border-left-color: transparent;
-    }
-    .none-triangle::after {
-        border-top-color: transparent;
-    }
+    
     .elem-disgn {
-        padding-top: 25px;
+        padding-top: 15px;
     }
+    
     .mobile-color::before {
         border-top-color: #EB6FFF;
     }
@@ -509,9 +616,7 @@
     .mobile-color p {
         color: #fff;
     }
-    .image-mobile-design {
-        display: none;
-    }
+    
     .mission-text-left {
         margin-left: -30px;
     }
@@ -580,13 +685,14 @@
         height: 200px;
     }
     .banner-text {
-        max-width: 350px;
-        width: 100%;
-        font-size: 19px;
-        line-height: 40px;
+        font-size: 18px;
+        line-height: 25px;
     }
-    .banner {
-        padding-top: 320px;
+    .banner-tagline {
+        line-height: 15px;
+    }
+    .header-banner {
+        padding: 180px 0px 60px 0px;
     }
     .four {
         display: none;

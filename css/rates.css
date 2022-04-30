@@ -1,5 +1,5 @@
 .rates {
-    padding-top: 100px;
+    padding: 45px 0px 70px 0px;
 }
 .rates-text {
     font-family: 'Ruda', sans-serif;
@@ -179,7 +179,7 @@
     line-height: 30px;
     text-transform: uppercase;
     color: #000;
-    margin: 20px -35px 0px -35px;
+    margin: 20px -25px 0px -25px;
     border-bottom: 2px solid black;
     padding-left: 25px;
 }
