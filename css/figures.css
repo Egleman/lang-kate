@@ -55,15 +55,17 @@
 }
 
 .eight {
+    z-index: -1;
     width: 334px;
     height: 334px;
-    top: 4850px;
-    right: 250px;
+    top: 4800px;
+    right: 335px;
 }
 .nine {
+    z-index: -1;
     width: 186px;
     height: 93px;
-    top: 4965px;
+    top: 4920px;
     left: 550px;
     border-radius: 50% 50% 0 0 / 100% 100% 0 0 !important;
 }

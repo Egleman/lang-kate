@@ -1,3 +1,6 @@
+.rates {
+    padding-top: 100px;
+}
 .rates-text {
     font-family: 'Ruda', sans-serif;
     font-style: normal;
@@ -16,10 +19,9 @@
 .privat {
     max-width: 588px;
     width: 100%;
-    height: 652px;
+    padding: 30px;
     background: #EB6FFF;
     border-radius: 10px;
-    padding-top: 35px;
     margin-right: 25px;
 }
 .privat-logo {
@@ -45,11 +47,9 @@
     line-height: 30px;
     text-transform: uppercase;
     color: #FFFFFF;
-    margin-top: 20px;
-}
-.horizont-stick-white {
-    border: 1px solid #FFFFFF;
-    margin-bottom: 6px;
+    margin: 20px -30px 0px -30px;
+    border-bottom: 2px solid white;
+    padding-left: 30px;
 }
 
 .d-flex {
@@ -108,11 +108,10 @@
 .basic {
     max-width: 587.51px;
     width: 100%;
-    height: 588px;
+    padding: 25px;
     background: #CAE9EB;
     border-radius: 10px;
-    margin-top: 32px;
-    padding-top: 28px;
+    margin-top: 30px;
 }
 .basic-logo {
     font-family: 'Ruda', sans-serif;
@@ -180,5 +179,7 @@
     line-height: 30px;
     text-transform: uppercase;
     color: #000;
-    margin-top: 20px;
+    margin: 20px -35px 0px -35px;
+    border-bottom: 2px solid black;
+    padding-left: 25px;
 }

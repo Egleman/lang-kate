@@ -111,6 +111,7 @@
     max-width: 800px;
     margin: 0 auto;
     display: none;
+    margin-bottom: 100px;
 }
 .arrow-slider-mobile {
     display: none;

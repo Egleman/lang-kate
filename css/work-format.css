@@ -1,5 +1,6 @@
 .work-format {
-    height: 150px;
+    padding-top: 35px;
+    padding-bottom: 35px;
     background: #EB6FFF;
     display: flex;
     align-items:center;

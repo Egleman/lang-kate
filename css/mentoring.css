@@ -1,5 +1,10 @@
+.mentoring {
+    padding: 100px 0px 100px 0px;
+}
+.personaliz-last {
+    margin-bottom: 0px !important;
+}
 .mentoring-content {
-    margin-top: 100px;
     display: grid;
     grid-template-columns: 50% 50%;
 }
