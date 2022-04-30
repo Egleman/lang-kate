@@ -512,10 +512,25 @@
         padding: 60px 0px 35px 0px;
     }
     .cases {
-        padding: 35px 0px 50px 0px;
+        padding: 35px 0px 25px 0px;
+    }
+    .who-do-i-work-with {
+        padding: 25px 0px 25px 0px;
+    }
+    .rates {
+        padding: 25px 0px 25px 0px;
+    }
+    .plan {
+        padding-top: 35px;
     }
 }
 @media (max-width: 620px) {
+    .misson {
+        padding-bottom: 30px;
+    }
+    .who-do-i-work-with {
+        padding: 15px 0px 15px 0px;
+    }
     .services-info-mobile-1 {
         display: none;
     }
@@ -549,7 +564,7 @@
         text-align: center;
     }
     .rates {
-        padding: 45px 0px 35px 0px;
+        padding: 25px 0px 25px 0px;
     }
     .plan {
         padding-top: 35px;
@@ -576,7 +591,7 @@
         margin-bottom: 40px;
     }
     .cases {
-        padding: 35px 0px 25px 0px;
+        padding: 35px 0px 15px 0px;
     }
     .mentoring {
         padding: 60px 0px 35px 0px;
