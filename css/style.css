@@ -525,6 +525,18 @@
     }
 }
 @media (max-width: 620px) {
+    .reviews {
+        padding: 25px 0px 25px 0px;
+    }
+    .what-is-barre {
+        padding: 25px 0px 25px 0px;
+    }
+    .reviews-text {
+        font-size: 24px;
+    }
+    .what-is-barre-text {
+        font-size: 24px;
+    }
     .misson {
         padding-bottom: 30px;
     }
