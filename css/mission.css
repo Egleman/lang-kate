@@ -6,6 +6,7 @@
 
 .mission-content {
     display: flex;
+    justify-content: space-between;
 }
 .mission-colum-img {
     max-width: 383px;
@@ -15,12 +16,16 @@
 }
 .mission-column-1 {
     display: flex;
+    flex-direction: column;
+    position: relative;
     z-index: 1;
 }
 .mission-column-2 {
     display: flex;
     margin-top: 102px;
     z-index: 1;
+    flex-direction: column;
+    position: relative;
 }
 .mission-text-left {
     margin-top: 26px;
@@ -28,9 +33,9 @@
     white-space: nowrap;
 }
 .mission-text-right {
-    position: relative;
-    top: 239px;
-    left: 56px;
+    position: absolute;
+    right: 5%;
+    top: -8%;
 }
 .text-right-1 {
     font-family: 'Ruda', sans-serif;
@@ -61,6 +66,9 @@
     line-height: 30px;
     text-transform: uppercase;
     color: #000000;
+    position: absolute;
+    top: 20%;
+    right: -40%;
 }
 .text-left-2 {
     font-family: 'Ruda', sans-serif;
@@ -71,6 +79,7 @@
     text-transform: uppercase;
     color: #000000;
     margin-top: 25px;
+    margin-left: 5%;
 }
 
 .about-text {
